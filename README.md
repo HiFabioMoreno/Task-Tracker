@@ -3,7 +3,7 @@
 A terminal-based application designed to help manage tasks efficiently. 
 
 
-## ✨Funcionalidades✨ ##
+## ✨Features ✨ ##
 
 - 📌 Add tasks.
 - ✅ Mark tasks as to-do, in progress or done.
