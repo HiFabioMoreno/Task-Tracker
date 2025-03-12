@@ -28,6 +28,8 @@ cd Task-Tracker
 
 ```bash
 
+# Config db
+
 # Copy the absolute path of the task.db file located in the db folder.
 # Create the resources folder inside src/main/:
 
@@ -39,6 +41,8 @@ cd Task-Tracker
 
 # Open the file src/main/resources/config.properties and
 # paste the path into the file, making sure it follows this format:
+
+   database.path=/absolute/path/to/task.db
 
 # Example on Windows
 database.path=C:/Users/YourUser/Project/db/task.db
