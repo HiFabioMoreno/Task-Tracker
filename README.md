@@ -16,7 +16,7 @@ Each created task includes a creation date and a last update timestamp.
 ## Technologies ##
 This project is built using Java, SQLite, and Apache Commons CLI.
 
-### Uso ###
+### Use ###
 
 ``` bash
 
