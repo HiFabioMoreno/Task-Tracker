@@ -18,13 +18,25 @@ This project is built using Java, SQLite, and Apache Commons CLI.
 
 ### Uso ###
 
-```java
+``` bash
 
 # Clone 
 git clone https://github.com/HiFabioMoreno/Task-Tracker.git
 cd Task-Tracker
 
+```
+
+```bash
+
 # Copy the absolute path of the task.db file located in the db folder.
+# Create the resources folder inside src/main/:
+
+   mkdir -p src/main/resources
+
+# Create the config.properties file inside src/main/resources/:
+
+   touch src/main/resources/config.properties
+
 # Open the file src/main/resources/config.properties and
 # paste the path into the file, making sure it follows this format:
 
@@ -33,7 +45,8 @@ database.path=C:/Users/YourUser/Project/db/task.db
 
 #Example on Linux/Mac
 database.path=/home/youruser/project/db/task.db
-
+```
+``` java
 # Compilar
 mvn package
 
